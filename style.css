@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+}
+
+.table1{
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin-right: 10px;
+    background-color: #d4b470;
+    
+}
+
+.table2 {
+    border-collapse: collapse;
+    border: 1px solid white;s
+    margin-right: 10px;
+    background-color:#d4b470;
+    
+}
+.table3 {
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin-right: 10px;
+    background-color:#d4b470;
+    
+}
+h1{
+    text-align: center;
+}
+.PARC{
+    display: none;
+}
+
+
+.PA{
+padding: 10px;
+background-color: white;
+color: black;
+cursor: pointer;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase ;
+}
+
+.PA:hover+.PARC{
+display: block;
+
+}
+.STA{
+    display: none;
+}
+
+
+.SA{
+padding: 10px;
+background-color: white;
+color: black;
+cursor: pointer;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase ;
+
+
+}
+
+.SA:hover+.STA{
+display: block;
+
+}
+
+
+.SKI{
+    display: none;
+}
+
+
+.SK{
+padding: 10px;
+background-color: white;
+color: black;
+cursor: pointer;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase ;
+
+
+}
+
+.SK:hover+.SKI{
+display: block;
+
+
+}
